@@ -1,0 +1,115 @@
+.App {
+  display: flex;
+  margin: 16px;
+  flex-direction: row;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+[class*='col-'] {
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.VED-bioPanel {
+}
+.VED-board {
+  flex-grow: 1;
+}
+
+.VED-bioAvatar {
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Tab */
+
+.VED-tab-menu {
+  margin-left: 8px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-right: 8px;
+}
+.VED-clickDisable {
+  display: inline;
+}
+.active-menu {
+  border-bottom: 1px solid #f9826c;
+  color: #000;
+}
+.VED-menu-item {
+  padding-left: 8px;
+  padding-right: 16px;
+  cursor: pointer;
+  padding-bottom: 8px;
+  font-size: 1rem;
+  color: #a6a6a6;
+}
+.VED-tab-body {
+  background-color: #fff;
+  margin-left: 8px;
+  padding-left: 8px;
+  margin-top: 16px;
+  padding-top: 1px;
+  margin-right: 8px;
+  padding-right: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .App {
+    display: flex;
+    margin: 16px;
+    flex-direction: column;
+  }
+  .col-3 {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .col-9 {
+    width: 100%;
+  }
+}
+
+.subHeaderContainer span {
+  margin-right: 20px;
+}
